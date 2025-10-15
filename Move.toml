@@ -1,0 +1,12 @@
+[package]
+name = "up-only-contracts"
+version = "1.0.0"
+authors = []
+
+[addresses]
+up_only = "de54b5a75337971bdb01eab5a057e9591a188778f0c3636900acd43a9ef46890"
+sliswap = "b92e918780b4a5ebfbf20b9bc1aa5fb0469a41f5f0ead35330d29154f03e8361"
+[dev-addresses]
+[dependencies]
+SliSwap = {local="../../SliSwap"}
+[dev-dependencies]
